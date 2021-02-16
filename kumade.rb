@@ -6,7 +6,7 @@ class Kumade < Formula
   sha256 "a115ab0faa7e07c405bda1e2a3a967abecaf757822aee081245b905d24bf17d7"
   license "MIT"
 
-  depends_on go: :build
+  depends_on "go" => :build
 
   def install
     system "go", "build", *std_go_args, *build_args
