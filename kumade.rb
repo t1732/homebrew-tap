@@ -1,9 +1,9 @@
 class Kumade < Formula
   desc "ChonoHa API CLI"
   homepage "https://github.com/t1732/kumade"
-  url "https://github.com/t1732/kumade/archive/v0.0.1.tar.gz"
-  version "v0.0.1"
-  sha256 "a115ab0faa7e07c405bda1e2a3a967abecaf757822aee081245b905d24bf17d7"
+  url "https://github.com/t1732/kumade/archive/v0.0.2.tar.gz"
+  version "v0.0.2"
+  sha256 "52920acbe5552e62e5f3a232a213f37918fd8aad53c7993e221bdb44a6c532a0"
   license "MIT"
 
   depends_on "go" => :build
